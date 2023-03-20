@@ -33,7 +33,7 @@ func GeneratePDF(employee []Employee) (err error) {
 	}
 
 	// Generate the PDF file
-	err = pdf.OutputFileAndClose("employee_report.pdf")
+	err = pdf.OutputFileAndClose("employeeReport.pdf")
 	if err != nil {
 		return err
 	}
